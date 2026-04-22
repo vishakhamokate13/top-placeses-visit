@@ -1,0 +1,303 @@
+.main-hero-seation {
+background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)),
+        url(./../images/ujjain.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+.main-content{
+    margin-left: 3%;
+    margin-top: 35px;
+
+}
+
+.highlighted-main-content {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.highlighted-text{
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 20px;
+    gap: 5px;
+}
+
+.sub-content {
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+        'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: tomato;
+    font-weight: 900;
+    margin-bottom: 10px;
+    
+}
+
+.heading-1 {
+    color: white;
+}
+.main-info{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 3%;
+    width: 800px;
+}
+
+.destination-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top:10px;
+    background-color: white;
+    padding: 10px;
+    width: 800px;
+    border-radius: 30px;
+    margin-left: 3%;
+}
+.destination-container-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.destination-input{
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.btn-search{
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.recommendations {
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin-left: 2%;
+}
+
+.recommendations-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.recommendations-count {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.destinations-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.destinations-section-heading {
+    font-size: 40px;
+}
+
+.destinations-section-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.destinations-section-items-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/ujjain-mahakal.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card-info {
+    /* width: 100%; */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-top-info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.card-name {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.card-prize {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    /* padding-right: 30px; */
+}
+
+.card-bottom-info {
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 400;
+}
+
+.btn-book {
+    background-color: #E6501B;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 15px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.destinations-section-items-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.destinations-section-items-2-sub-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/kerala.avif);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 195px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.destinations-section-items-2-sub-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/goa.avif);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 195px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.destination-container-items-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.destinations-section-items-3-sub-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/udaipur.webp);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 195px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.destinations-section-items-3-sub-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/hampi.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 195px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.work-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.work-section-heading{
+    font-size: 40px;
+    font-weight: 700;
+}
+.work-section-description{
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.work-section-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.work-card-heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+.work-section-card-container-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    padding: 20px;
+    /* height: 200px; */
+    width: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1) ;
+}
+.work-section-card-container-item:hover{
+    border: 1px solid #E6501B;
+    transition: border 0.6s ease;
+}
+
+.work-section-card{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.work-section-img{
+    background-color: #fadcd1;
+    padding: 15px;
+    border-radius: 50%;
+}

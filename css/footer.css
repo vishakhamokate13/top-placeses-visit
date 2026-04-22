@@ -1,0 +1,32 @@
+.footer-main-container{
+    width: 100%;
+    height: 300px;
+    background-color: #A98B76;
+    color: #fff;
+    margin-top: 50px;
+}
+
+
+.footer-links{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-menu-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-child-item{
+    width: 25%;
+}
+.footer-child-item-1{
+    width: 30%;
+}
+
+.email-box {
+   display: flex;        /* same line */
+    align-items: center;  /* vertically center */
+    gap: 10px;            /* space between logo & text */
+}
