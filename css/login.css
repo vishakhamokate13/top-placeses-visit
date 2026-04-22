@@ -1,0 +1,91 @@
+.main-hero-seation {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.7)),
+        url(./../images/ujjain.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+.main-content{
+    margin-left: 3%;
+    margin-top: 35px;
+
+}
+/* Page background */
+
+.login-section{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:white;
+}
+
+/* Login box */
+
+.login-box{
+width:350px;
+background:white;
+padding:35px;
+border-radius:12px;
+box-shadow:0 8px 25px rgba(0,0,0,0.15);
+text-align:center;
+}
+
+/* Title */
+
+.login-title{
+margin-bottom:25px;
+font-size:28px;
+color:#e6501b;
+}
+
+/* Inputs */
+
+.input-group input{
+width:100%;
+padding:12px;
+margin-bottom:15px;
+border:1px solid #ccc;
+border-radius:6px;
+font-size:15px;
+}
+
+/* Button */
+
+.login-btn{
+width:100%;
+padding:12px;
+border:none;
+background:#e6501b;
+color:white;
+font-size:16px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.login-btn:hover{
+background:#c43c0e;
+}
+
+/* Signup */
+
+.signup-text{
+margin-top:15px;
+font-size:14px;
+}
+
+.signup-text a{
+color:#e6501b;
+text-decoration:none;
+}
+
+
+
+
+    
+
+
+
+
+    
