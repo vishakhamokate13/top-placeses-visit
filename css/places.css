@@ -1,43 +1,67 @@
+.main-hero-seation {
+background-image: linear-gradient(#00000033, rgba(0, 0, 0, 0.5)),
+        url(./../images/ujjain-mahakal.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 210vh;
+
+}
+.main-content{
+    margin-left: 3%;
+    margin-top: 35px;
+
+}
+
 .title{
-
 text-align:center;
-margin-top:30px;
-
+margin:30px;
+font-size:40px;
+color:white;
 }
 
 .places-container{
-
 display:flex;
 flex-wrap:wrap;
-
 justify-content:center;
-
+padding:20px;
 }
 
 .card{
-
-width:250px;
+width:260px;
 margin:20px;
-
-box-shadow:0 0 10px gray;
-
-border-radius:10px;
-
+background:white;
+border-radius:12px;
 overflow:hidden;
-
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+transition:0.3s;
 }
 
 .card img{
-
 width:100%;
 height:180px;
-
 object-fit:cover;
-
 }
 
 .card h3{
-
+margin:10px;
 text-align:center;
+}
 
+.card p{
+padding:0 10px 15px;
+text-align:center;
+font-size:14px;
+}
+
+.card:hover{
+transform:translateY(-10px) scale(1.05);
+}
+
+/* Responsive */
+@media(max-width:768px){
+.places-container{
+flex-direction:column;
+align-items:center;
+}
 }

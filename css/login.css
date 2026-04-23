@@ -1,6 +1,6 @@
 .main-hero-seation {
     background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.7)),
-        url(./../images/ujjain.jpg);
+        url(./../images/ujjain-mahakal.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -9,6 +9,10 @@
 .main-content{
     margin-left: 3%;
     margin-top: 35px;
+
+}
+body{
+background-color:rgb(230, 213, 230);   
 
 }
 /* Page background */

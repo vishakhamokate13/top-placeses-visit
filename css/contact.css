@@ -1,21 +1,13 @@
-.main-hero-seation {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.2)),
-        url(./../images/ujjain.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
 
-}
-.main-content{
-    margin-left: 3%;
-    margin-top: 35px;
+body{
+background-color:rgb(230, 213, 230);   
 
 }
 /* HERO */
 
 .contact-hero{
 height:280px;
-background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+background-image:linear-gradient(rgb(0,0,0,1),rgba(0,0,0,0.1)),
 url("./../images/travel-bg.jpg");
 background-size:cover;
 background-position:center;
@@ -67,7 +59,8 @@ width:40%;
 background:white;
 padding:30px;
 border-radius:10px;
-box-shadow:0 4px 15px rgba(0,0,0,0.1);
+box-shadow:0 4px 15px rgb(235, 224, 235);   
+;
 }
 
 .contact-form form{
