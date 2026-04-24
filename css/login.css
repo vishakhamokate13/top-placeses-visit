@@ -81,15 +81,30 @@ font-size:14px;
 
 .signup-text a{
 color:#e6501b;
-text-decoration:none;
+te
 }
 
+/* ===== Mobile (480px) ===== */
+@media (max-width: 480px) {
 
 
 
-    
+    /* Login */
+    .login-container {
+        width: 90%;
+        margin: 40px auto;
+        padding: 15px;
+    }
 
+    .login-container h2 {
+        font-size: 18px;
+    }
 
+    .login-container input,
+    .login-container button {
+        padding: 8px;
+    }
+}
 
 
     

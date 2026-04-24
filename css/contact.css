@@ -90,3 +90,8 @@ cursor:pointer;
 .contact-form button:hover{
 background:#c43c0e;
 }
+@media (max-width: 768px) {
+    .contact-box {
+        width: 90%;
+    }
+}
